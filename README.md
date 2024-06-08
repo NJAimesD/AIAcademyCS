@@ -24,7 +24,7 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 **Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add)
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add =500x300)
 
 The target variable in this dataset is loan status There are 11 independent variables used for modeling, with a range of 32,581 to 28,638 non-null values. The average age of the sample population is 27 years old, with an average loan amount of around $10,000 and an average credit history of 5.8 years.
 
