@@ -16,7 +16,6 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 * Higher client satisfaction.
 * Loan approval fairness, reducing biases
 
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/aceb230e-da3f-4f34-abf0-20d5d68b645a)
 
 ### Description of Data
 
