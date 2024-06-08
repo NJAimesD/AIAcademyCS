@@ -1,5 +1,6 @@
 # Credit Risk Crystal Ball: Predicting Risk with Machine Learning
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/9249a348-f7f3-46e8-bca0-742d921947ce" width="500" />  
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/9249a348-f7f3-46e8-bca0-742d921947ce" width="500" /> 
+
 ### Overview and Business Understanding
 
 Credit risk prediction is a cricial process for financial institutions, aiming to asses the likehood of a borrower defaulting on a loan. That way the non-defaulter people can access easily to credist with better
