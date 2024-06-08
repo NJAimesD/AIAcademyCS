@@ -1,5 +1,5 @@
 # Credit Risk Crystal Ball: Predicting Risk with Machine Learning
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/9249a348-f7f3-46e8-bca0-742d921947ce" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/9249a348-f7f3-46e8-bca0-742d921947ce" width="650" /> 
 
 ### Overview and Business Understanding
 
@@ -24,12 +24,14 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 **Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add =500x300)
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add" width="300" /> 
 
 The target variable in this dataset is loan status There are 11 independent variables used for modeling, with a range of 32,581 to 28,638 non-null values. The average age of the sample population is 27 years old, with an average loan amount of around $10,000 and an average credit history of 5.8 years.
 
 The target variable in this case, with 78.3% of values indicating non-default and 21.7% indicating default, is significantly unbalanced, a data balancing technique was needed, specifically, SMOTE, that is an oversampling technique used to balance the class distribution of a dataset by creating synthetic minority class samples..
-![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d)
+
+<img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d" width="500" /> 
+
 
 A comparative visual analysis was performed, where we built a correlation matrix for all the variables, 
 ![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549)
