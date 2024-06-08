@@ -10,6 +10,7 @@ Detecting people with a high risk profile can be a complex task, but still it im
 
 Our team at Deloitte seeks to use different machine learning models to predict the credit risk for different profiles, test them and implement a metric to compare them, once evaluated, we´ll select the model with the best results, as well as understand what are the features with the greatest impact in the final result, that will give added value to the client.   
 #### Benefits
+
 * A streamlined process for approving loans.
 * Higher accuracy in the approval process.
 * Higher client satisfaction.
@@ -36,13 +37,33 @@ A comparative visual analysis was performed, where we built a correlation matrix
 
 Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D, so we would expect this variables to have the greatest impact on the final result.
 
-![image](https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/209974dc-5a84-42a7-9adb-3165658c9af1)
-
-
-
-
-
-Correlation matrix
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/e342dfb8-4485-408e-a9e2-703e73397373)
 
 
 ### Data Understanding and Analysis
+
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/625f246c-9091-4396-9d54-768112b26239)
+Jonathan
+
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/a180d5ca-ef0f-469d-914c-41f849d4ec6b)
+
+Jonathan
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/b14064e7-8d38-4b7b-bcda-69aecbf566a4)
+
+### Data processing
+
+### Models evaluated
+* Linear Regresion: It is a .....
+
+
+#### Comparison
+
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/04e64478-6075-4b03-bec1-a074eed0347c)
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
+
+### Optimal model: Random Forest:
+
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/01096403-d402-4357-8b1f-e48b8c65accc)
+
+
+
