@@ -88,9 +88,8 @@ F1-Score: Is a combination of precision and recall for a overall behavior grade.
 So for us is more important to predict loan declines correctly than approvals.
 According to those metric, the best model is the Random Forest Classifier.  
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" /> 
-Finaly, we compare the ROC Curves of each model, that tell us how good the classifier is, catching the correct values, while avoiding mistakes.
-
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" />   
+Finally, we compare the ROC Curves of each model, that tell us how good the classifier is, catching the correct values, while avoiding mistakes, in the plot, all of the models perform correcly, except for the logistic regression.
 
 
 ### Optimal model: Random Forest:
