@@ -119,7 +119,7 @@ The arean under the Curve is very close to 1, about 0.95, so our model is catchi
 
 We can clearly see that the results are well predicted, so, far most of the actual default values were predicted as so, as well as the non default ones.
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/01096403-d402-4357-8b1f-e48b8c65accc" width="700" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/50556010-22d8-40c0-9bf4-fb3dab4bb187" width="700" /> 
 
 
 
