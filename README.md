@@ -39,11 +39,12 @@ The target variable in this case, with 78.3% of values indicating non-default an
 
 <img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d" width="500" /> 
 
+#### Correlation matrix
+A comparative visual analysis was performed, where we built a correlation matrix for all the variables.  
 
-A comparative visual analysis was performed, where we built a correlation matrix for all the variables, 
 <img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549" width="500" /> 
 
-Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D, so we would expect this variables to have the greatest impact on the final result.
+Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D, so we would expect this variables to have the greatest impact on the final result, as well as the negatively correlated variables 
 
 
 <img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/e342dfb8-4485-408e-a9e2-703e73397373" width="500" /> 
@@ -66,13 +67,20 @@ Checking the variables correlations to the Loan Status, we found that the most c
 # Adam
 ### Models evaluated
 # Adam
-* Linear Regresion: It is a .....
+* Linear Regression: Finds the linear equation that fits the best the data...
+* Logistic Regression: The goal is to predict the probability that an instance belongs to a given class or not.
+* Ridge...
+
 
 
 #### Comparison
 
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/04e64478-6075-4b03-bec1-a074eed0347c)
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
+
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="500" /> 
+
+
 
 ### Optimal model: Random Forest:
 
