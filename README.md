@@ -111,7 +111,8 @@ F1 Score = 0.94
 The arean under the Curve is very close to 1, about 0.95, so our model is catching most of the correct values, while avoiding mistakes.
 
 
-<img src="ttps://github.com/NJAimesD/AIAcademyCS/assets/159951082/dbcec821-d13c-4e77-893f-9e5e0bfb5f32" width="700" /> 
+
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/26fa58a3-da6f-413a-a8d0-7a1015e05b62" width="700" /> 
 
 
 #### Confusion Matrix
