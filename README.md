@@ -84,11 +84,13 @@ Recall: How many of the actual default profiles does the system correctly identi
 F1-Score: Is a combination of precision and recall for a overall behavior grade.
 
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
--the most important for us is Recall, because in this case False Negatives are of high concern,  since we as an institution don't want to give a loan to someone that will default, because the model predicted otherwise. We'd would be losing money.
+
+The most important feature for us is Recall, because in this case False Negatives are of high concern,  since we as an institution don't want to give a loan to someone that will default, because the model predicted otherwise. We'd would be losing money.
 So for us is more important to predict loan declines correctly than approvals.
 According to those metric, the best model is the Random Forest Classifier.  
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" />   
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" />  
+
 Finally, we compare the ROC Curves of each model, that tell us how good the classifier is, catching the correct values, while avoiding mistakes, in the plot, all of the models perform correcly, except for the logistic regression.
 
 
