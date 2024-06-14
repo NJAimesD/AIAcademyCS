@@ -68,21 +68,13 @@ Checking the variables correlations to the Loan Status, we found that the most c
 
 * Linear Regression: Finds the linear equation that fits the best the data...
 * Logistic Regression: The goal is to predict the probability that an instance belongs to a given class or not.
-* Ridge...
+* Ridge Model: Linear regression model that adds a penalty term to the least squares objective, to prevent overfitting by shrinking the coefficients towards zero.
+* Random Forest Model: Ensemble learning method that builds multiple decision trees during training and outputs the mode of the classes (classification) or average (regression) of the individual trees.
+* Xgboost Model: Gradient boosting algorithm that sequentially builds new models to correct errors of the previous models, using a regularization term to prevent overfitting and achieve higher prediction accuracy.
 
 
 
 #### Comparison
-
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
-
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" /> 
-
-
-
-### Optimal model: Random Forest:
-The Random Forest Classifier is a model based in Decision Trees, which is an algorithm that breaks down complex problems into simple steps, and based on input features, calculates the best route to predict the best answer.
-Random Forest combines multiple decision tree and averages their outcomes, to provide an accurate overall answer.
 
 For evaluating the model performance we´ll use Precision, Recall and F1-Score.
 Precision: refers to the percentage of profiles the model identifies as defaulters that are actually that.
@@ -91,17 +83,36 @@ Recall: How many of the actual default profiles does the system correctly identi
 
 F1-Score: Is a combination of precision and recall for a overall behavior grade.
 
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
+-the most important for us is Recall, because in this case False Negatives are of high concern,  since we as an institution don't want to give a loan to someone that will default, because the model predicted otherwise. We'd would be losing money.
+So for us is more important to predict loan declines correctly than approvals.
+According to those metric, the best model is the Random Forest Classifier.  
+
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" /> 
+Finaly, we compare the ROC Curves of each model, that tell us how good the classifier is, catching the correct values, while avoiding mistakes.
+
+
+
+### Optimal model: Random Forest:
+The Random Forest Classifier is a model based in Decision Trees, which is an algorithm that breaks down complex problems into simple steps, and based on input features, calculates the best route to predict the best answer.  
+Random Forest combines multiple decision tree and averages their outcomes, to provide an accurate overall answer.
+
+
 For the Random Forest Classifier, we got:
-Precision = 0.941
-Recall = 0.939
-F1 Score = 0.94
+Precision = 0.941  
+Recall = 0.939  
+F1 Score = 0.94  
 
 
 
 
 #### ROC Curve
 The arean under the Curve is very close to 1, about 0.95, so our model is catching most of the correct values, while avoiding mistakes.
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/0ab7efcc-71eb-43a6-84bb-14f5d11d1b45)
+
+
+<img src="ttps://github.com/NJAimesD/AIAcademyCS/assets/159951082/dbcec821-d13c-4e77-893f-9e5e0bfb5f32" width="700" /> 
+
+
 #### Confusion Matrix
 
 We can clearly see that the results are well predicted, so, far most of the actual default values were predicted as so, as well as the non default ones.
