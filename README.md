@@ -83,6 +83,10 @@ Checking the variables correlations to the Loan Status, we found that the most c
 
 
 ### Optimal model: Random Forest:
+The Random Forest Classifier is a model based in Decision Trees, which is an algorithm that breaks down complex problems into simple steps, and based on input features, calculates the best route to predict the best answer.
+Random Forest combines multiple decision tree and averages their outcomes, to provide an accurate overall answer.
+
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/0ab7efcc-71eb-43a6-84bb-14f5d11d1b45)
 
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/01096403-d402-4357-8b1f-e48b8c65accc)
 
