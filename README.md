@@ -30,37 +30,37 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 **Exploratory analysis**   
 We first reviewed all the variables to understand their meaning.
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add" width="500" />
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/4d96d12d-fde1-47ea-8751-e23fe36e0add" width="600" />
 
 
 The target variable in this dataset is loan status There are 11 independent variables used for modeling, with a range of 32,581 to 28,638 non-null values. The average age of the sample population is 27 years old, with an average loan amount of around $10,000 and an average credit history of 5.8 years these descriptive stastics were pulled after removing outliers and nulls.
 
 The target variable in this case, with 78.3% of values indicating non-default and 21.7% indicating default, is significantly unbalanced, a data balancing technique was needed, specifically, SMOTE, that is an oversampling technique used to balance the class distribution of a dataset by creating synthetic minority class samples.The purpose of using SMOTE is to remove biases in our model.
 
-<img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/0d3f2174-0525-43d2-af43-126b4d85363d" width="600" /> 
 
 #### Correlation matrix
 A comparative visual analysis was performed, where we built a correlation matrix for all the variables.  
 
-<img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCapstone/assets/159951082/5355d94d-3a12-4858-8514-f387efed3549" width="600" /> 
 
 Checking the variables correlations to the Loan Status, we found that the most correlated variables are  Loan Percent Income, Loan Interest Rate as well as the Loan Grade D, so we would expect this variables to have the greatest impact on the final result, as well as the negatively correlated variables 
 
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/e342dfb8-4485-408e-a9e2-703e73397373" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/e342dfb8-4485-408e-a9e2-703e73397373" width="600" /> 
 
 ### Data Understanding and Analysis
 
 # Jonathan
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/625f246c-9091-4396-9d54-768112b26239" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/625f246c-9091-4396-9d54-768112b26239" width="600" /> 
 
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/a180d5ca-ef0f-469d-914c-41f849d4ec6b" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/a180d5ca-ef0f-469d-914c-41f849d4ec6b" width="600" /> 
 
 # Jonathan
-<img src="ttps://github.com/NJAimesD/AIAcademyCS/assets/159951082/b14064e7-8d38-4b7b-bcda-69aecbf566a4" width="500" /> 
+<img src="ttps://github.com/NJAimesD/AIAcademyCS/assets/159951082/b14064e7-8d38-4b7b-bcda-69aecbf566a4" width="600" /> 
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/14a7c6dd-6cea-406b-8e36-8770db6a8201" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/14a7c6dd-6cea-406b-8e36-8770db6a8201" width="600" /> 
 
 
 ### Data processing
@@ -78,7 +78,7 @@ Checking the variables correlations to the Loan Status, we found that the most c
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/04e64478-6075-4b03-bec1-a074eed0347c)
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
 
-<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="500" /> 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" /> 
 
 
 
