@@ -74,7 +74,6 @@ Checking the variables correlations to the Loan Status, we found that the most c
 
 #### Comparison
 
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/04e64478-6075-4b03-bec1-a074eed0347c)
 ![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/415fb249-5fd1-4f27-a33f-350fe19e7c1a)
 
 <img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/d0a201e2-b9af-40b5-bc33-01879c295d7e" width="600" /> 
@@ -85,13 +84,31 @@ Checking the variables correlations to the Loan Status, we found that the most c
 The Random Forest Classifier is a model based in Decision Trees, which is an algorithm that breaks down complex problems into simple steps, and based on input features, calculates the best route to predict the best answer.
 Random Forest combines multiple decision tree and averages their outcomes, to provide an accurate overall answer.
 
+For evaluating the model performance we´ll use Precision, Recall and F1-Score.
+Precision: refers to the percentage of profiles the model identifies as defaulters that are actually that.
+
+Recall: How many of the actual default profiles does the system correctly identify? Recall refers to the percentage of all the default profiles that the model catches.
+
+F1-Score: Is a combination of precision and recall for a overall behavior grade.
+
+For the Random Forest Classifier, we got:
+Precision = 0.941
+Recall = 0.939
+F1 Score = 0.94
+
+
+
+
+#### ROC Curve
+The arean under the Curve is very close to 1, about 0.95, so our model is catching most of the correct values, while avoiding mistakes.
+![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/0ab7efcc-71eb-43a6-84bb-14f5d11d1b45)
 #### Confusion Matrix
 
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/0ab7efcc-71eb-43a6-84bb-14f5d11d1b45)
+We can clearly see that the results are well predicted, so, far most of the actual default values were predicted as so, as well as the non default ones.
 
-We can clearly see that the results are well predicted, so, far most of the 
+<img src="https://github.com/NJAimesD/AIAcademyCS/assets/159951082/01096403-d402-4357-8b1f-e48b8c65accc" width="700" /> 
 
-![image](https://github.com/NJAimesD/AIAcademyCS/assets/159951082/01096403-d402-4357-8b1f-e48b8c65accc)
+
 
 
 
