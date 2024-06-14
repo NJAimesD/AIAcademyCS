@@ -22,6 +22,7 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 * Loan approval fairness, reducing biases
 
 
+
 ### Description of Data
 
 **Data Source**: Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
