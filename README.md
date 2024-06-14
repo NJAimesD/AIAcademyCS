@@ -3,15 +3,19 @@
 
 ### Overview and Business Understanding
 ### Julia and Matt
-Credit risk prediction is a cricial process for financial institutions, aiming to asses the likehood of a borrower defaulting on a loan. That way the non-defaulter people can access easily to credist with better
-conditions, while the institutions reduce the risk of finantial loss.
-There are many techniques to predict credit risk, but Machine Learning can be used to automate the prediction process, since it learns the patterns asociated with a defaulter profile and its use reduces time and resources consumption.
-Detecting people with a high risk profile can be a complex task, but still it implies better profit margin for the institution, and ML using improves a lot the efficiency, and the institution resources can be now used in other areas that require human supervision.
+Credit risk prediction is a crucial process for financial institutions, aiming to assess the likehood of a borrower defaulting on a loan. That way the people not likely to default can more easily access loans with better conditions, while the institutions reduce the risk of financial loss.
+There are many techniques to predict credit risk, but Machine Learning (ML) can be used to automate the prediction process, since it learns the patterns associated with a defaulter profile and its use reduces time and resource consumption.
+Detecting people with a high risk profile can be a complex task, but still results in a better profit margin for the institution. Also, ML improves the efficiency of the process, and the institution resources can be now used in other areas that require human supervision.
 
-Our team at Deloitte seeks to use different machine learning models to predict the credit risk for different profiles, test them and implement a metric to compare them, once evaluated, we´ll select the model with the best results, as well as understand what are the features with the greatest impact in the final result, that will give added value to the client. 
+Our team at Deloitte seeks to use different machine learning models to predict the credit risk for different profiles, test them and implement a metric to compare them. Once evaluated, we´ll select the model with the best results, and identify the factors with the highest influence on credit risk for a higher value-add to the client.
 
-#### Benefits
+#### The Problem:
+* Banks receive many loan applications daily.
+* Manual approval takes a long time.
+* Manual approval can result in more errors and bias.
+* Could lose clients to competitors with a superior application process.
 
+#### Benefits of Our Solution:
 * A streamlined process for approving loans.
 * Higher accuracy in the approval process.
 * Higher client satisfaction.
@@ -19,7 +23,6 @@ Our team at Deloitte seeks to use different machine learning models to predict t
 
 
 ### Description of Data
-
 
 **Data Source**: Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
